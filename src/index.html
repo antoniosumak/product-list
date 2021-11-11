@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Speck primjer</title>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <h1 class="hero-title">Products App</h1>
+        <label for="user-input">Product title</label>
+        <div class="hero-input">
+          <div class="hero-input__container">
+            <input id="user-input" type="text" />
+          </div>
+          <button class="add-product">Add</button>
+        </div>
+        <div class="hero-info">
+          <p class="hero-info__count">
+            Number of items: <span class="products-number"></span>
+          </p>
+          <p class="hero-info__delete">Remove all products</p>
+        </div>
+        <div class="hero-content"></div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
